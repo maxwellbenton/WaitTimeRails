@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 1
+  store_id: 1
+  start_wait_time: MyString
+  rating: 1
+  review: MyString
+
+two:
+  user_id: 1
+  store_id: 1
+  start_wait_time: MyString
+  rating: 1
+  review: MyString
