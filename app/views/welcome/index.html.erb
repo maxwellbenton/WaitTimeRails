@@ -1,2 +1,2 @@
-
+<%="#{@ip.latitude}, #{@ip.longitude}"%>
 <img class="responsive-img center" src=<%="https://maps.googleapis.com/maps/api/staticmap?size=300x200&zoom=15&scale=2"+@user.class.coord_output([[@ip.latitude, @ip.longitude]])%>>
