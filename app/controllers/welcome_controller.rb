@@ -1,7 +1,8 @@
 class WelcomeController < ApplicationController
 
 def index
-    @ip = request.remote_ip
+    @ip = location
+    @user = User.new
 end
 
 end

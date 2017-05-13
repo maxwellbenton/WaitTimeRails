@@ -4,5 +4,6 @@ class User < ApplicationRecord
     #has many reviews
     geocoded_by :address
 
+      
 
 end
